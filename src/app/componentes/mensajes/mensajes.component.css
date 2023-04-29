@@ -1,0 +1,52 @@
+.centra{
+    height: 150px;
+    position: relative;
+}
+.centra h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.centra1{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.centra11{
+    margin-left: 35%;
+}
+
+.centra2{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.centra12{
+    margin-left: 1%;
+}
+ 
+
+button {
+    width: 100px;
+    height: 35px;
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button:hover {
+    border: solid;
+    background-color:white; 
+    color: #008CBA;
+}

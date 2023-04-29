@@ -1,0 +1,85 @@
+<div class="centra" *ngIf="sino1==0">     
+    <h1>{{texto1}}</h1>        
+</div>
+
+<div class="centra1" *ngIf="sino1==1">  
+    <div>
+        <h1>{{texto1}}</h1>                          
+    </div>
+    <div class="centra11">
+        <mat-progress-spinner
+        class="example-margin"
+        [color]="color"
+        [mode]="mode"
+        [value]="value">
+        </mat-progress-spinner>
+    </div>       
+</div>    
+<div class="centra2" *ngIf="sino1==2">  
+    <div>
+        <h1>{{texto1}}</h1>
+    </div>
+    <div class="centra12">                                      
+        <button (click)="cerrar()" >Aceptar</button>    
+    </div>    
+</div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    *ngIf="sino1==false"
+<div class="centra1" *ngIf="sino1==true">  
+    <div>
+        <h1>{{texto1}}</h1>                          
+    </div>
+    <div class="centra11">
+        <mat-progress-spinner
+        class="example-margin"
+        [color]="color"
+        [mode]="mode"
+        [value]="value">
+        </mat-progress-spinner>
+    </div>
+            
+</div>    
+    <div class="centra1" *ngIf="sino1==true">  
+    <div>
+        <h1>{{texto1}}</h1>                  
+    </div>    
+    <div>
+        <mat-progress-spinner
+        class="example-margin"
+        [color]="color"
+        [mode]="mode"
+        [value]="value">
+        </mat-progress-spinner>
+    </div>    
+</div>
+    
+    <div *ngIf="sino1==true">
+    <mat-progress-spinner
+    class="example-margin"
+    [color]="color"
+    [mode]="mode"
+    [value]="value">
+</mat-progress-spinner>
+</div>
+<div *ngIf="sino1==false">
+    <button >Aceptar</button>
+</div>    -->
